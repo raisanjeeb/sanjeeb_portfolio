@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanjeeb Rai — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a class="nav-logo" href="#hero">SR<span>.</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#hero"    class="nav-link active">Home</a></li>
+    <li><a href="#about"   class="nav-link">About Me</a></li>
+    <li><a href="#work"    class="nav-link">Work</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-toggle" id="themeToggle">
+      <span class="icon" id="themeIcon">☀️</span>
+      <span id="themeLabel">Light</span>
+    </button>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-text">RAI</div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="hero-dot" style="width:6px;height:6px;top:22%;left:15%;animation-duration:4s;"></div>
+  <div class="hero-dot" style="width:4px;height:4px;top:38%;right:22%;animation-duration:6s;animation-delay:-2s;"></div>
+  <div class="hero-dot" style="width:8px;height:8px;top:62%;left:58%;animation-duration:5s;animation-delay:-1s;"></div>
+  <div class="hero-dot" style="width:3px;height:3px;top:74%;right:36%;animation-duration:7s;animation-delay:-3s;"></div>
+
+  <!-- ══════════════ BUTTERFLIES ══════════════ -->
+  <div class="butterfly b1">
+    <svg viewBox="0 0 200 200" width="85" height="85" xmlns="http://www.w3.org/2000/svg">
+      <g class="wing-left"><ellipse cx="80" cy="80" rx="55" ry="38" fill="var(--accent)" opacity="0.85" transform="rotate(-20 80 100)"/><ellipse cx="75" cy="125" rx="38" ry="25" fill="var(--accent)" opacity="0.7" transform="rotate(15 75 110)"/></g>
+      <g class="wing-right"><ellipse cx="120" cy="80" rx="55" ry="38" fill="var(--accent)" opacity="0.85" transform="rotate(20 120 100)"/><ellipse cx="125" cy="125" rx="38" ry="25" fill="var(--accent)" opacity="0.7" transform="rotate(-15 125 110)"/></g>
+      <ellipse cx="100" cy="100" rx="5" ry="28" fill="var(--accent)" opacity="0.9"/>
+      <line x1="100" y1="74" x2="80" y2="52" stroke="var(--accent)" stroke-width="1.5" opacity="0.8"/>
+      <line x1="100" y1="74" x2="120" y2="52" stroke="var(--accent)" stroke-width="1.5" opacity="0.8"/>
+      <circle cx="80" cy="52" r="3" fill="var(--accent)" opacity="0.8"/>
+      <circle cx="120" cy="52" r="3" fill="var(--accent)" opacity="0.8"/>
+    </svg>
+  </div>
+  <div class="butterfly b2">
+    <svg viewBox="0 0 200 200" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+      <g class="wing-left"><ellipse cx="80" cy="80" rx="55" ry="38" fill="var(--accent)" opacity="0.8" transform="rotate(-20 80 100)"/><ellipse cx="75" cy="125" rx="38" ry="25" fill="var(--accent)" opacity="0.65" transform="rotate(15 75 110)"/></g>
+      <g class="wing-right"><ellipse cx="120" cy="80" rx="55" ry="38" fill="var(--accent)" opacity="0.8" transform="rotate(20 120 100)"/><ellipse cx="125" cy="125" rx="38" ry="25" fill="var(--accent)" opacity="0.65" transform="rotate(-15 125 110)"/></g>
+      <ellipse cx="100" cy="100" rx="5" ry="28" fill="var(--accent)" opacity="0.9"/>
+      <line x1="100" y1="74" x2="80" y2="52" stroke="var(--accent)" stroke-width="1.5" opacity="0.8"/>
+      <line x1="100" y1="74" x2="120" y2="52" stroke="var(--accent)" stroke-width="1.5" opacity="0.8"/>
+      <circle cx="80" cy="52" r="3" fill="var(--accent)" opacity="0.8"/>
+      <circle cx="120" cy="52" r="3" fill="var(--accent)" opacity="0.8"/>
+    </svg>
+  </div>
+  <div class="butterfly b3">
+    <svg viewBox="0 0 200 200" width="110" height="110" xmlns="http://www.w3.org/2000/svg">
+      <g class="wing-left"><ellipse cx="80" cy="80" rx="55" ry="38" fill="var(--accent)" opacity="0.75" transform="rotate(-20 80 100)"/><ellipse cx="75" cy="125" rx="38" ry="25" fill="var(--accent)" opacity="0.6" transform="rotate(15 75 110)"/></g>
+      <g class="wing-right"><ellipse cx="120" cy="80" rx="55" ry="38" fill="var(--accent)" opacity="0.75" transform="rotate(20 120 100)"/><ellipse cx="125" cy="125" rx="38" ry="25" fill="var(--accent)" opacity="0.6" transform="rotate(-15 125 110)"/></g>
+      <ellipse cx="100" cy="100" rx="5" ry="28" fill="var(--accent)" opacity="0.9"/>
+      <line x1="100" y1="74" x2="80" y2="52" stroke="var(--accent)" stroke-width="1.5" opacity="0.8"/>
+      <line x1="100" y1="74" x2="120" y2="52" stroke="var(--accent)" stroke-width="1.5" opacity="0.8"/>
+      <circle cx="80" cy="52" r="3" fill="var(--accent)" opacity="0.8"/>
+      <circle cx="120" cy="52" r="3" fill="var(--accent)" opacity="0.8"/>
+    </svg>
+  </div>
+  <div class="butterfly b4">
+    <svg viewBox="0 0 200 200" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+      <g class="wing-left"><ellipse cx="80" cy="80" rx="55" ry="38" fill="var(--accent)" opacity="0.9" transform="rotate(-20 80 100)"/><ellipse cx="75" cy="125" rx="38" ry="25" fill="var(--accent)" opacity="0.75" transform="rotate(15 75 110)"/></g>
+      <g class="wing-right"><ellipse cx="120" cy="80" rx="55" ry="38" fill="var(--accent)" opacity="0.9" transform="rotate(20 120 100)"/><ellipse cx="125" cy="125" rx="38" ry="25" fill="var(--accent)" opacity="0.75" transform="rotate(-15 125 110)"/></g>
+      <ellipse cx="100" cy="100" rx="5" ry="28" fill="var(--accent)" opacity="0.9"/>
+      <line x1="100" y1="74" x2="80" y2="52" stroke="var(--accent)" stroke-width="1.5" opacity="0.8"/>
+      <line x1="100" y1="74" x2="120" y2="52" stroke="var(--accent)" stroke-width="1.5" opacity="0.8"/>
+      <circle cx="80" cy="52" r="3" fill="var(--accent)" opacity="0.8"/>
+      <circle cx="120" cy="52" r="3" fill="var(--accent)" opacity="0.8"/>
+    </svg>
+  </div>
+  <div class="butterfly b5">
+    <svg viewBox="0 0 200 200" width="68" height="68" xmlns="http://www.w3.org/2000/svg">
+      <g class="wing-left"><ellipse cx="80" cy="80" rx="55" ry="38" fill="var(--accent)" opacity="0.8" transform="rotate(-20 80 100)"/><ellipse cx="75" cy="125" rx="38" ry="25" fill="var(--accent)" opacity="0.65" transform="rotate(15 75 110)"/></g>
+      <g class="wing-right"><ellipse cx="120" cy="80" rx="55" ry="38" fill="var(--accent)" opacity="0.8" transform="rotate(20 120 100)"/><ellipse cx="125" cy="125" rx="38" ry="25" fill="var(--accent)" opacity="0.65" transform="rotate(-15 125 110)"/></g>
+      <ellipse cx="100" cy="100" rx="5" ry="28" fill="var(--accent)" opacity="0.9"/>
+      <line x1="100" y1="74" x2="80" y2="52" stroke="var(--accent)" stroke-width="1.5" opacity="0.8"/>
+      <line x1="100" y1="74" x2="120" y2="52" stroke="var(--accent)" stroke-width="1.5" opacity="0.8"/>
+      <circle cx="80" cy="52" r="3" fill="var(--accent)" opacity="0.8"/>
+      <circle cx="120" cy="52" r="3" fill="var(--accent)" opacity="0.8"/>
+    </svg>
+  </div>
+
+  <!-- ══════════════ FLOWER ANIMATION (bottom of hero) ══════════════ -->
+  <div class="flower-scene">
+
+    <!-- Night sky glow layer -->
+    <div class="flower-night"></div>
+
+    <!-- Flowers wrapper -->
+    <div class="fl-flowers">
+
+      <!-- Flower 1 -->
+      <div class="fl-flower fl-flower--1">
+        <div class="fl-flower__leafs fl-flower__leafs--1">
+          <div class="fl-flower__leaf fl-flower__leaf--1"></div>
+          <div class="fl-flower__leaf fl-flower__leaf--2"></div>
+          <div class="fl-flower__leaf fl-flower__leaf--3"></div>
+          <div class="fl-flower__leaf fl-flower__leaf--4"></div>
+          <div class="fl-flower__white-circle"></div>
+          <div class="fl-flower__light fl-flower__light--1"></div>
+          <div class="fl-flower__light fl-flower__light--2"></div>
+          <div class="fl-flower__light fl-flower__light--3"></div>
+          <div class="fl-flower__light fl-flower__light--4"></div>
+          <div class="fl-flower__light fl-flower__light--5"></div>
+          <div class="fl-flower__light fl-flower__light--6"></div>
+          <div class="fl-flower__light fl-flower__light--7"></div>
+          <div class="fl-flower__light fl-flower__light--8"></div>
+        </div>
+        <div class="fl-flower__line">
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--1"></div>
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--2"></div>
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--3"></div>
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--4"></div>
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--5"></div>
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--6"></div>
+        </div>
+      </div>
+
+      <!-- Flower 2 -->
+      <div class="fl-flower fl-flower--2">
+        <div class="fl-flower__leafs fl-flower__leafs--2">
+          <div class="fl-flower__leaf fl-flower__leaf--1"></div>
+          <div class="fl-flower__leaf fl-flower__leaf--2"></div>
+          <div class="fl-flower__leaf fl-flower__leaf--3"></div>
+          <div class="fl-flower__leaf fl-flower__leaf--4"></div>
+          <div class="fl-flower__white-circle"></div>
+          <div class="fl-flower__light fl-flower__light--1"></div>
+          <div class="fl-flower__light fl-flower__light--2"></div>
+          <div class="fl-flower__light fl-flower__light--3"></div>
+          <div class="fl-flower__light fl-flower__light--4"></div>
+          <div class="fl-flower__light fl-flower__light--5"></div>
+          <div class="fl-flower__light fl-flower__light--6"></div>
+          <div class="fl-flower__light fl-flower__light--7"></div>
+          <div class="fl-flower__light fl-flower__light--8"></div>
+        </div>
+        <div class="fl-flower__line">
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--1"></div>
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--2"></div>
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--3"></div>
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--4"></div>
+        </div>
+      </div>
+
+      <!-- Flower 3 -->
+      <div class="fl-flower fl-flower--3">
+        <div class="fl-flower__leafs fl-flower__leafs--3">
+          <div class="fl-flower__leaf fl-flower__leaf--1"></div>
+          <div class="fl-flower__leaf fl-flower__leaf--2"></div>
+          <div class="fl-flower__leaf fl-flower__leaf--3"></div>
+          <div class="fl-flower__leaf fl-flower__leaf--4"></div>
+          <div class="fl-flower__white-circle"></div>
+          <div class="fl-flower__light fl-flower__light--1"></div>
+          <div class="fl-flower__light fl-flower__light--2"></div>
+          <div class="fl-flower__light fl-flower__light--3"></div>
+          <div class="fl-flower__light fl-flower__light--4"></div>
+          <div class="fl-flower__light fl-flower__light--5"></div>
+          <div class="fl-flower__light fl-flower__light--6"></div>
+          <div class="fl-flower__light fl-flower__light--7"></div>
+          <div class="fl-flower__light fl-flower__light--8"></div>
+        </div>
+        <div class="fl-flower__line">
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--1"></div>
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--2"></div>
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--3"></div>
+          <div class="fl-flower__line__leaf fl-flower__line__leaf--4"></div>
+        </div>
+      </div>
+
+      <!-- Long grass stem -->
+      <div class="fl-grow-ans" style="--d:1.2s">
+        <div class="fl-flower__g-long">
+          <div class="fl-flower__g-long__top"></div>
+          <div class="fl-flower__g-long__bottom"></div>
+        </div>
+      </div>
+
+      <!-- Grass clusters -->
+      <div class="fl-growing-grass">
+        <div class="fl-flower__grass fl-flower__grass--1">
+          <div class="fl-flower__grass--top"></div>
+          <div class="fl-flower__grass--bottom"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--1"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--2"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--3"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--4"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--5"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--6"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--7"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--8"></div>
+          <div class="fl-flower__grass__overlay"></div>
+        </div>
+      </div>
+      <div class="fl-growing-grass">
+        <div class="fl-flower__grass fl-flower__grass--2">
+          <div class="fl-flower__grass--top"></div>
+          <div class="fl-flower__grass--bottom"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--1"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--2"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--3"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--4"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--5"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--6"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--7"></div>
+          <div class="fl-flower__grass__leaf fl-flower__grass__leaf--8"></div>
+          <div class="fl-flower__grass__overlay"></div>
+        </div>
+      </div>
+
+      <!-- Side leaves -->
+      <div class="fl-grow-ans" style="--d:2.4s">
+        <div class="fl-flower__g-right fl-flower__g-right--1"><div class="fl-leaf"></div></div>
+      </div>
+      <div class="fl-grow-ans" style="--d:2.8s">
+        <div class="fl-flower__g-right fl-flower__g-right--2"><div class="fl-leaf"></div></div>
+      </div>
+
+      <!-- Front grass fan -->
+      <div class="fl-grow-ans" style="--d:2.8s">
+        <div class="fl-flower__g-front">
+          <div class="fl-flower__g-front__leaf-wrapper fl-flower__g-front__leaf-wrapper--1"><div class="fl-flower__g-front__leaf"></div></div>
+          <div class="fl-flower__g-front__leaf-wrapper fl-flower__g-front__leaf-wrapper--2"><div class="fl-flower__g-front__leaf"></div></div>
+          <div class="fl-flower__g-front__leaf-wrapper fl-flower__g-front__leaf-wrapper--3"><div class="fl-flower__g-front__leaf"></div></div>
+          <div class="fl-flower__g-front__leaf-wrapper fl-flower__g-front__leaf-wrapper--4"><div class="fl-flower__g-front__leaf"></div></div>
+          <div class="fl-flower__g-front__leaf-wrapper fl-flower__g-front__leaf-wrapper--5"><div class="fl-flower__g-front__leaf"></div></div>
+          <div class="fl-flower__g-front__leaf-wrapper fl-flower__g-front__leaf-wrapper--6"><div class="fl-flower__g-front__leaf"></div></div>
+          <div class="fl-flower__g-front__leaf-wrapper fl-flower__g-front__leaf-wrapper--7"><div class="fl-flower__g-front__leaf"></div></div>
+          <div class="fl-flower__g-front__leaf-wrapper fl-flower__g-front__leaf-wrapper--8"><div class="fl-flower__g-front__leaf"></div></div>
+          <div class="fl-flower__g-front__line"></div>
+        </div>
+      </div>
+
+      <!-- Front right cluster -->
+      <div class="fl-grow-ans" style="--d:3.2s">
+        <div class="fl-flower__g-fr">
+          <div class="fl-leaf"></div>
+          <div class="fl-flower__g-fr__leaf fl-flower__g-fr__leaf--1"></div>
+          <div class="fl-flower__g-fr__leaf fl-flower__g-fr__leaf--2"></div>
+          <div class="fl-flower__g-fr__leaf fl-flower__g-fr__leaf--3"></div>
+          <div class="fl-flower__g-fr__leaf fl-flower__g-fr__leaf--4"></div>
+          <div class="fl-flower__g-fr__leaf fl-flower__g-fr__leaf--5"></div>
+          <div class="fl-flower__g-fr__leaf fl-flower__g-fr__leaf--6"></div>
+          <div class="fl-flower__g-fr__leaf fl-flower__g-fr__leaf--7"></div>
+          <div class="fl-flower__g-fr__leaf fl-flower__g-fr__leaf--8"></div>
+        </div>
+      </div>
+
+      <!-- Long grasses -->
+      <div class="fl-long-g fl-long-g--0">
+        <div class="fl-grow-ans" style="--d:3s"><div class="fl-leaf fl-leaf--0"></div></div>
+        <div class="fl-grow-ans" style="--d:2.2s"><div class="fl-leaf fl-leaf--1"></div></div>
+        <div class="fl-grow-ans" style="--d:3.4s"><div class="fl-leaf fl-leaf--2"></div></div>
+        <div class="fl-grow-ans" style="--d:3.6s"><div class="fl-leaf fl-leaf--3"></div></div>
+      </div>
+      <div class="fl-long-g fl-long-g--1">
+        <div class="fl-grow-ans" style="--d:3.6s"><div class="fl-leaf fl-leaf--0"></div></div>
+        <div class="fl-grow-ans" style="--d:3.8s"><div class="fl-leaf fl-leaf--1"></div></div>
+        <div class="fl-grow-ans" style="--d:4s"><div class="fl-leaf fl-leaf--2"></div></div>
+        <div class="fl-grow-ans" style="--d:4.2s"><div class="fl-leaf fl-leaf--3"></div></div>
+      </div>
+      <div class="fl-long-g fl-long-g--2">
+        <div class="fl-grow-ans" style="--d:4s"><div class="fl-leaf fl-leaf--0"></div></div>
+        <div class="fl-grow-ans" style="--d:4.2s"><div class="fl-leaf fl-leaf--1"></div></div>
+        <div class="fl-grow-ans" style="--d:4.4s"><div class="fl-leaf fl-leaf--2"></div></div>
+        <div class="fl-grow-ans" style="--d:4.6s"><div class="fl-leaf fl-leaf--3"></div></div>
+      </div>
+      <div class="fl-long-g fl-long-g--3">
+        <div class="fl-grow-ans" style="--d:4s"><div class="fl-leaf fl-leaf--0"></div></div>
+        <div class="fl-grow-ans" style="--d:4.2s"><div class="fl-leaf fl-leaf--1"></div></div>
+        <div class="fl-grow-ans" style="--d:3s"><div class="fl-leaf fl-leaf--2"></div></div>
+        <div class="fl-grow-ans" style="--d:3.6s"><div class="fl-leaf fl-leaf--3"></div></div>
+      </div>
+      <div class="fl-long-g fl-long-g--4">
+        <div class="fl-grow-ans" style="--d:4s"><div class="fl-leaf fl-leaf--0"></div></div>
+        <div class="fl-grow-ans" style="--d:4.2s"><div class="fl-leaf fl-leaf--1"></div></div>
+        <div class="fl-grow-ans" style="--d:3s"><div class="fl-leaf fl-leaf--2"></div></div>
+        <div class="fl-grow-ans" style="--d:3.6s"><div class="fl-leaf fl-leaf--3"></div></div>
+      </div>
+      <div class="fl-long-g fl-long-g--5">
+        <div class="fl-grow-ans" style="--d:4s"><div class="fl-leaf fl-leaf--0"></div></div>
+        <div class="fl-grow-ans" style="--d:4.2s"><div class="fl-leaf fl-leaf--1"></div></div>
+        <div class="fl-grow-ans" style="--d:3s"><div class="fl-leaf fl-leaf--2"></div></div>
+        <div class="fl-grow-ans" style="--d:3.6s"><div class="fl-leaf fl-leaf--3"></div></div>
+      </div>
+      <div class="fl-long-g fl-long-g--6">
+        <div class="fl-grow-ans" style="--d:4.2s"><div class="fl-leaf fl-leaf--0"></div></div>
+        <div class="fl-grow-ans" style="--d:4.4s"><div class="fl-leaf fl-leaf--1"></div></div>
+        <div class="fl-grow-ans" style="--d:4.6s"><div class="fl-leaf fl-leaf--2"></div></div>
+        <div class="fl-grow-ans" style="--d:4.8s"><div class="fl-leaf fl-leaf--3"></div></div>
+      </div>
+      <div class="fl-long-g fl-long-g--7">
+        <div class="fl-grow-ans" style="--d:3s"><div class="fl-leaf fl-leaf--0"></div></div>
+        <div class="fl-grow-ans" style="--d:3.2s"><div class="fl-leaf fl-leaf--1"></div></div>
+        <div class="fl-grow-ans" style="--d:3.5s"><div class="fl-leaf fl-leaf--2"></div></div>
+        <div class="fl-grow-ans" style="--d:3.6s"><div class="fl-leaf fl-leaf--3"></div></div>
+      </div>
+
+    </div><!-- /.fl-flowers -->
+  </div><!-- /.flower-scene -->
+
+  <!-- Avatar -->
+  <div class="hero-avatar-wrap">
+    <div class="hero-avatar-ring">
+      <div class="hero-avatar-static">
+        <img src="images/jebson.jpeg" alt="Sanjeeb Rai">
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-tag">Available for work · 2026</div>
+  <h1 class="hero-name">Sanjeeb<br><em>Rai.</em></h1>
+  <p class="hero-desc">
+    A creative developer &amp; designer crafting digital experiences that are
+    <span id="typedWord">thoughtful</span><span class="typing-cursor"></span>,
+    functional, and beautifully executed.
+  </p>
+  <div class="hero-cta">
+    <a href="#work" class="btn-primary">View Work</a>
+    <a href="#contact" class="btn-ghost">Get in Touch</a>
+  </div>
+  <div class="hero-scroll">Scroll</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-left reveal">
+    <div class="section-label">About Me</div>
+    <h2 class="section-title">Building things<br>that <em style="font-style:italic;color:var(--accent)">matter.</em></h2>
+  </div>
+  <div class="about-right reveal" style="transition-delay:0.15s">
+    <p>Hi, I'm <strong>Sanjeeb Rai</strong> — a passionate developer with a keen eye for design. I love turning complex problems into elegant, intuitive solutions.</p>
+    <p>When I'm not writing code, I'm exploring new technologies, experimenting with design systems, or finding inspiration in everyday moments.</p>
+    <div class="skills-grid" id="skillsGrid">
+      <span class="skill-tag">HTML / CSS</span>
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">React</span>
+      <span class="skill-tag">Node.js</span>
+      <span class="skill-tag">UI/UX Design</span>
+      <span class="skill-tag">Figma</span>
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">Git</span>
+    </div>
+    <div class="skill-bar-wrap" id="skillBars">
+      <div class="skill-bar-item">
+        <div class="skill-bar-label"><span>JavaScript</span><span>90%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-label"><span>React</span><span>85%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-label"><span>UI/UX Design</span><span>80%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-label"><span>Node.js</span><span>75%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-label"><span>Python</span><span>70%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="work-header">
+    <div>
+      <div class="section-label reveal">Selected Work</div>
+      <h2 class="section-title reveal" style="transition-delay:0.1s">Recent <em style="font-style:italic;color:var(--accent)">Projects.</em></h2>
+    </div>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-num">01</div>
+      <div class="project-arrow">↗</div>
+      <h3 class="project-title">E-Commerce Platform</h3>
+      <p class="project-desc">A full-stack shopping experience with seamless checkout, real-time inventory, and an intuitive admin dashboard.</p>
+      <div class="project-tags">
+        <span class="project-tag">React</span>
+        <span class="project-tag">Node.js</span>
+        <span class="project-tag">MongoDB</span>
+      </div>
+    </div>
+    <div class="project-card reveal" style="transition-delay:0.1s">
+      <div class="project-num">02</div>
+      <div class="project-arrow">↗</div>
+      <h3 class="project-title">Portfolio Generator</h3>
+      <p class="project-desc">A drag-and-drop tool that lets creatives build stunning portfolios without writing a single line of code.</p>
+      <div class="project-tags">
+        <span class="project-tag">Vue.js</span>
+        <span class="project-tag">Firebase</span>
+        <span class="project-tag">CSS</span>
+      </div>
+    </div>
+    <div class="project-card reveal" style="transition-delay:0.2s">
+      <div class="project-num">03</div>
+      <div class="project-arrow">↗</div>
+      <h3 class="project-title">Analytics Dashboard</h3>
+      <p class="project-desc">Real-time data visualization platform built for clarity — turning complex metrics into actionable insights.</p>
+      <div class="project-tags">
+        <span class="project-tag">D3.js</span>
+        <span class="project-tag">Python</span>
+        <span class="project-tag">FastAPI</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label reveal" style="justify-content:center">Let's Connect</div>
+  <h2 class="contact-title reveal" style="transition-delay:0.1s">Have a project<br>in <em>mind?</em></h2>
+  <p class="reveal" style="color:var(--muted);font-size:13px;margin-top:16px;transition-delay:0.2s">
+    I'm always open to new opportunities and collaborations.
+  </p>
+  <div class="contact-links reveal" style="transition-delay:0.25s">
+    <a href="mailto:sanjeeb@example.com" class="contact-link" target="_blank">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+      Email
+    </a>
+    <a href="https://www.instagram.com/sanjeeb_rai5" class="contact-link" target="_blank" rel="noopener noreferrer">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+      Instagram
+    </a>
+    <a href="https://www.linkedin.com/in/sanjeeb-rai-0373413bb" class="contact-link" target="_blank" rel="noopener noreferrer">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+      LinkedIn
+    </a>
+    <a href="https://github.com/raisanjeeb" class="contact-link" target="_blank" rel="noopener noreferrer">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+      GitHub
+    </a>
+  </div>
+  <a href="https://www.instagram.com/sanjeeb_rai5" class="btn-primary reveal" target="_blank" rel="noopener noreferrer" style="margin-top:48px;display:inline-block;transition-delay:0.3s">Say Hello →</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>© 2026 Sanjeeb Rai. All rights reserved.</span>
+  <span>Built with ♥ &amp; pure HTML/CSS/JS</span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
